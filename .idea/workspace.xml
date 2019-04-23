@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a011efb2-58df-47e3-a6ec-bc4627a88140" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/DataMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/Executor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/ZooKeeperTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +87,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/Executor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java" />
       </list>
     </option>
   </component>
@@ -116,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,18 +141,46 @@
             </path>
             <path>
               <item name="javaclients" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="javaclients" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaclients" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaclients" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaclients" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaclients" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="harry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaclients" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaclients" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="harry" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555949495515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556009186474" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -163,13 +200,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.java.clients [clean]">
+  <component name="RunManager" selected="Application.HtmlDownloader">
     <configuration name="ConHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.harry.core.test.ConHash" />
       <module name="javaclients" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pers.harry.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HtmlDownloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.harry.modules.test.HtmlDownloader" />
+      <module name="javaclients" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.harry.modules.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,34 +236,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZooKeeperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.harry.modules.test.ZooKeeperTest" />
-      <module name="javaclients" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.harry.modules.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaclients" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.harry.modules.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pers.harry.modules.test" />
-      <option name="MAIN_CLASS_NAME" value="pers.harry.modules.test.JedisTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,16 +268,14 @@
     <list>
       <item itemvalue="Application.ConHash" />
       <item itemvalue="Application.MysqlTest" />
-      <item itemvalue="Application.ZooKeeperTest" />
-      <item itemvalue="JUnit.JedisTest" />
       <item itemvalue="Maven.java.clients [clean]" />
+      <item itemvalue="Application.HtmlDownloader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HtmlDownloader" />
         <item itemvalue="Maven.java.clients [clean]" />
         <item itemvalue="Application.MysqlTest" />
-        <item itemvalue="JUnit.JedisTest" />
-        <item itemvalue="Application.ZooKeeperTest" />
         <item itemvalue="Application.ConHash" />
       </list>
     </recent_temporary>
@@ -276,6 +296,7 @@
       <workItem from="1555672201989" duration="26000" />
       <workItem from="1555947752323" duration="1799000" />
       <workItem from="1555949596015" duration="169000" />
+      <workItem from="1556001898220" duration="7135000" />
     </task>
     <servers />
   </component>
@@ -288,13 +309,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7878000" />
+    <option name="totallyTimeSpent" value="15013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22049356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22371244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,7 +324,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946353" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6459227" weight="0.27210104" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6459227" visible="true" weight="0.26406428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,7 +340,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.20225322" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.20225322" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3299356" />
@@ -363,6 +384,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/ConHash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -370,10 +398,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="237">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
