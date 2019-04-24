@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a011efb2-58df-47e3-a6ec-bc4627a88140" name="Default Changelist" comment="" />
+    <list default="true" id="a011efb2-58df-47e3-a6ec-bc4627a88140" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/harry/core/test/JavaIOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +36,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="750">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/JavaIOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
@@ -81,9 +109,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/ZooKeeperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/Executor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownload.java" />
         <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/HtmlDownloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/harry/core/test/JavaIOTest.java" />
       </list>
     </option>
   </component>
@@ -155,27 +184,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="harry" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaclients" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaclients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="harry" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556012409915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556103564906" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -195,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HtmlDownloader">
+  <component name="RunManager" selected="Application.JavaIOTest">
     <configuration name="ConHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.harry.core.test.ConHash" />
       <module name="javaclients" />
@@ -215,6 +235,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pers.harry.modules.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.harry.core.test.JavaIOTest" />
+      <module name="javaclients" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.harry.core.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +296,13 @@
     <list>
       <item itemvalue="Application.ConHash" />
       <item itemvalue="Application.MysqlTest" />
-      <item itemvalue="Maven.java.clients [clean]" />
       <item itemvalue="Application.HtmlDownloader" />
+      <item itemvalue="Maven.java.clients [clean]" />
+      <item itemvalue="Application.JavaIOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaIOTest" />
         <item itemvalue="Application.HtmlDownloader" />
         <item itemvalue="Maven.java.clients [clean]" />
         <item itemvalue="Application.MysqlTest" />
@@ -292,6 +327,7 @@
       <workItem from="1555947752323" duration="1799000" />
       <workItem from="1555949596015" duration="169000" />
       <workItem from="1556001898220" duration="8342000" />
+      <workItem from="1556081248941" duration="5829000" />
     </task>
     <servers />
   </component>
@@ -304,13 +340,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16220000" />
+    <option name="totallyTimeSpent" value="22049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22371244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,7 +355,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946353" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6459227" weight="0.17680827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6459227" weight="0.26980484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/ConHash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -397,6 +426,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/modules/test/MysqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/harry/core/test/JavaIOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

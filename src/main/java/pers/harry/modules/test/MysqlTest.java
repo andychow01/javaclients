@@ -3,7 +3,7 @@ package pers.harry.modules.test;
 import java.sql.*;
 
 public class MysqlTest {
-    public static void main(String[] args)throws Exception{
+    public static void main(String[] args) {
         try{
             //调用Class.forName()方法加载驱动程序
             Class.forName("com.mysql.jdbc.Driver");
